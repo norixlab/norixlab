@@ -1561,10 +1561,6 @@ button:disabled:hover {
     font-size: 93px;
     margin-bottom: 65px;
   }
-  .logo__img {
-    width: 230px;
-    height: 230px;
-  }
   .top__content-text {
     margin-bottom: 100px;
   }
@@ -1615,10 +1611,6 @@ button:disabled:hover {
     font-size: 80px;
     margin-bottom: 40px;
     padding: 40px 10px 20px;
-  }
-  .logo__img {
-    width: 200px;
-    height: 200px;
   }
   .top__content {
     max-width: 550px;
@@ -1944,12 +1936,6 @@ button:disabled:hover {
     top: 218px;
     right: 31px;
   }
-  .button-prev {
-    left: -10px;
-  }
-  .button-next {
-    right: -10px;
-  }
   .footer__inner {
     height: 100px;
     display: grid;
@@ -2120,6 +2106,12 @@ button:disabled:hover {
   }
   .projects__inner {
     margin: 210px auto 65px;
+  }
+  .button-prev {
+    left: 0;
+  }
+  .button-next {
+    right: 0;
   }
   .contacts__form {
     width: 360px;

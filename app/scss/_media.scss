@@ -82,11 +82,7 @@
     margin-bottom: 65px;
   
   }
-  .logo__img {
-   
-    width: 230px;
-    height: 230px;
-  }
+
   .top__content-text {
     margin-bottom: 100px;
   }
@@ -142,10 +138,7 @@
     padding: 40px 10px 20px;
   }
 
-  .logo__img {
-    width: 200px;
-    height: 200px;
-  }
+
   .top__content {
     max-width: 550px;
   }
@@ -303,6 +296,7 @@
 .header__img-gate{
   display: none;
 }
+
 .top {
   margin-bottom: 50px;
 }
@@ -492,12 +486,6 @@
   top: 218px;
   right: 31px;
 }
-.button-prev{
-  left: -10px;
-}
-.button-next{
-  right: -10px;
-}
 .footer__inner {
   height: 100px;
   display: grid;
@@ -673,7 +661,12 @@
 .projects__inner {
   margin: 210px auto 65px;
 }
-
+.button-prev{
+  left: 0;
+}
+.button-next{
+  right: 0;
+}
 .contacts__form {
   width: 360px;
 }

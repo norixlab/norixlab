@@ -1,9 +1,11 @@
 <?php
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
-// Replace 'YOUR_BOT_TOKEN' with your actual bot token
-$botToken = '6328630152:AAHesfKw023Ksvfsj51zzsMWb0Wg2xTW9BM';
-$chatId = '5347184930'; // Replace with the chat ID where you want to send the message
+
+require_once('./config.php');
+
+$botToken = $TOKEN;
+$chatId = $CHAT_ID; 
 
 // Check if the form is submitted
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
